@@ -13,6 +13,7 @@
 		601C369F23BBA5030050EA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601C369D23BBA5030050EA99 /* Main.storyboard */; };
 		601C36A123BBA5040050EA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601C36A023BBA5040050EA99 /* Assets.xcassets */; };
 		601C36A423BBA5040050EA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601C36A223BBA5040050EA99 /* LaunchScreen.storyboard */; };
+		601C36AC23BBA5830050EA99 /* MoviesDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601C36AB23BBA5830050EA99 /* MoviesDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		601C36A023BBA5040050EA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		601C36A323BBA5040050EA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		601C36A523BBA5040050EA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601C36AB23BBA5830050EA99 /* MoviesDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				601C369723BBA5030050EA99 /* AppDelegate.swift */,
 				601C369923BBA5030050EA99 /* SceneDelegate.swift */,
 				601C369B23BBA5030050EA99 /* ViewController.swift */,
+				601C36AB23BBA5830050EA99 /* MoviesDetailsVC.swift */,
 				601C369D23BBA5030050EA99 /* Main.storyboard */,
 				601C36A023BBA5040050EA99 /* Assets.xcassets */,
 				601C36A223BBA5040050EA99 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				601C369C23BBA5030050EA99 /* ViewController.swift in Sources */,
 				601C369823BBA5030050EA99 /* AppDelegate.swift in Sources */,
 				601C369A23BBA5030050EA99 /* SceneDelegate.swift in Sources */,
+				601C36AC23BBA5830050EA99 /* MoviesDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

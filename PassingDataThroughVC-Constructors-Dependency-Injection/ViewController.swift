@@ -10,11 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var movieNmae : UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
-
-
+  
+    func goToDetailedMovieVC(){
+        // this technique appear in ios 13 
+        guard let VC = storyboard?.instantiateViewController(identifier: "MoviesDetailsVC", creator: { coder in
+            return MoviesDetailsVC(coder: coder, movieName: self.movieNmae.text!)
+        })else{
+            fatalError("MoviesDetailsVC did not found")
+        }
+        navigationController?.pushViewController(VC, animated: true)
+    }
+    @IBAction func SetButtonTapped(_ sender: UIButton) {
+        goToDetailedMovieVC()
+    }
 }
 
